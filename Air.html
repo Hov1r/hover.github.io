@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>H_R</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="nav">
+        <img src="img/logo.svg" alt="logo" class="logo">
+        <ul class="menu">
+          <li><a href="index.html">Поиск билетов</a></li>
+          <li><a href="ticket.html">Мои билеты</a></li>
+        </ul>
+      </div>
+      <form class="search" id="searchForm">
+        <p><input class="where" list="airlist" type="text" name="outputplace" placeholder="Откуда"/></p>
+        <p><input class="inwhere" list="airlist" type="text" name="inputplace" placeholder="Куда" /></p>
+        <p><input class="day" type="text" name="day" placeholder="День">
+           <input class="month" type="text" name="month" placeholder="Месяц вылета"></p>
+        <p><button class="srch" type="submit">Найти</button></p>
+      </form>
+      <datalist id="airlist" class="airlist">
+        <option value="Красноярск"></option>
+        <option value="Москва"></option>
+        <option value="Санкт-Петербург"></option>
+      </datalist>
+    </div>
+  </header>
+  <section id="about" class="about">
+    <div class="container">
+      <div id="ticketResults" class="hidden"></div>
+    </div>
+  </section>
+  <footer id="footer" class="footer">
+    <div class="container"></div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

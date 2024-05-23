@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>H_R</title>
+	<link rel="stylesheet"  href="css/sign in.css">
+</head>
+<script>document.getElementById('davaToday').valueAsDate = new Date();</script>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+				<img src="img/logo.svg" alt="logo" class="logo">
+				<ul class="menu">
+					<li>
+						<a href="Air.html">
+							Поиск билетов
+						</a>
+					</li>
+					<li>
+						<a href="ticket.html">
+							Мои билеты
+						</a>
+					</li>
+				</ul>				
+			</div>
+
+	</header>
+	<section id="about" class="about">
+		<div class="main main-ram">
+			<form class="search">
+            	<p><input class="punct" list="airlist" type="text" name="graj" placeholder="Гражданство"/>
+            	</p>
+
+            	<p class="datapas">
+            	Данные паспорта
+            	</p>
+
+            	<p><input class="punct" type="text" name="surname" placeholder="Фамилия">
+            	</p>
+
+            	<p><input class="punct" type="text" name="name" placeholder="Имя"></p>
+
+            	<p>
+            		<input class="punct" type="text" name="fathername" placeholder="Отчество">
+            	</p>
+
+            	<p><input class="punct" type="date" name="Date" id="davaToday">
+            	</p>
+
+            	<p><input class="punct" type="text" name="ser and nom" placeholder="Серия и номер паспорта">
+            	</p>
+
+            	<p class="datapas">
+            	Где будете сидеть?
+            	</p>
+
+            	<p>
+            	<div class="samolet">
+      				<div id='count_Mest'></div>
+        			<div class="mesta1">1</div>
+        			<div class="mesta1">3</div>
+        			<div class="mesta1">5</div>
+        			<div class="mesta1">7</div>
+        			<div class="mesta1">9</div>
+        			<div class="mesta1">11</div>
+        			<div class="mesta1">13</div>
+        			<div class="mesta1">15</div>
+        			<div class="mesta1">17</div>
+        			<div class="mesta1">19</div>
+   				</div>
+   				</p>
+
+   				<p>
+            	<div class="samolet2">
+      				<div id='count_Mest'></div>
+        			<div class="mesta2">2</div>
+        			<div class="mesta2">4</div>
+        			<div class="mesta2">6</div>
+        			<div class="mesta2">8</div>
+        			<div class="mesta2">10</div>
+        			<div class="mesta2">12</div>
+        			<div class="mesta2">14</div>
+        			<div class="mesta2">16</div>
+        			<div class="mesta2">18</div>
+        			<div class="mesta2">20</div>
+   				</div>
+   				</p>
+
+            	<p>
+                <button  class="srch1" type="submit"><a class="srch1" href="ticket.html">Оформить</button> 
+            	</p>
+        	</form>
+		</div>
+
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			
+		</div>
+	</footer>
+</body>
+<script src="js/plase.js"></script>
+</html>	
