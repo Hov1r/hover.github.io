@@ -1,0 +1,156 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 1000px;
+    width: 1370px;
+    margin: 0 auto;
+}
+
+ul, li {
+    display: block;
+}
+
+.container {
+    width: 1370px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/hbg.jpg') no-repeat center top / cover;
+    padding-top: 0px;
+    color: #fff;
+
+}
+
+header a{
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu li{
+    margin-right: 40px;
+}
+
+.ticket{
+    border: 1px solid black;
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.punct{
+    width: 340px;
+    height: 50px;
+}
+
+.line{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: -130px;
+    height: 60px;
+}
+
+h6{
+    margin-top: -70px;
+    font-size: 14px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+p {
+    display: block;
+    padding: 1px;
+    width: 1000px;
+    margin-bottom: -20px;
+    margin-left: 240px;
+}
+
+.buy{
+    margin-right: 30px;
+    margin-left: auto;
+    background-color: lightblue;
+    margin-top: 20px;
+    color: black;
+    height: 50px;
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    padding: 17px 33px 30px 30px;
+    border: 1px solid black;
+    width: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.srch1   {
+    margin-top: 90px;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.datapas{
+    margin-top: 20 px;
+    margin-bottom: 20px;
+}
+.samolet{
+    width: 70%;
+    float: left;
+    margin-left: 120px;
+    position: relative;   
+    }
+.mesta1{
+    float:left;
+    width: 60px;
+    height: 35px;
+    background: silver;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.mesta2{
+    float:left;
+    width: 60px;
+    height: 35px;
+    background: silver;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.samolet2{
+    width: 70%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
+    position: absolute;   
+    }
